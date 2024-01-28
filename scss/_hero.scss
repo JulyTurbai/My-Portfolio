@@ -1,0 +1,114 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        position: relative;
+        .menu {
+            padding-top: 20px;
+            &__items {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-transform: uppercase;
+                font-weight: bold;
+            }
+            &__item {
+                margin-right: 30px;
+                height: 20px;
+            }
+            &__item:hover {
+                border-bottom: 1px solid black;
+                cursor: pointer;
+            }
+        }
+    }
+    .decor {
+        &__img {
+            width: 390px;
+            height: 260px;
+            position: absolute;
+            top: 100px;
+        }
+    }
+    .line--1 {
+        position: absolute;
+        width: 240px;
+        border: 1px solid black;
+        transform: rotate(90deg);
+        left: 200px;
+        top: 50px;
+    }
+    .line--2 {
+        position: absolute;
+        width: 90px;
+        border: 1px solid black;
+        left: 0;
+        top: 260px;
+        width: 0px;
+    }
+
+    .line--2.element-show {
+        width: 90px;
+        transition: 2s;
+    }
+
+    .line--2.element-hide {
+        width: 0;
+        transition: 2s;
+    }
+    .main-title {
+        width: 370px;
+        height: 135px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 85px;
+        z-index: 1000;
+        margin-top: 0;
+    }
+
+    .main-title.element-show {
+        margin-top: 130px;
+        transition: 2s;
+    }
+
+    .main-title.element-hide {
+        margin-top: 0;
+        transition: 3s;
+    }
+    .main-text {
+        font-size: 18px;
+        color: white;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 25px;
+    }
+    &__main-img  img{
+        width: 265px;
+        height: 401px;
+    }
+    .icons {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        height: 400px;
+        margin-right: 100px;
+        &__icon {
+            margin-bottom: 80px;
+            cursor: pointer;
+        }
+        &__icon:last-child {
+            margin-bottom: 0px;
+        }
+        &__icon img{
+            width: 20px;
+        }
+    }
+}
+

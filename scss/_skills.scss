@@ -1,0 +1,144 @@
+.skills {
+    margin-top: 100px;
+    position: relative;
+
+    .about-skills {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .skills-one {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 370px;
+        height: 150px;
+        background-color: white;
+        border: 1px solid black;
+        z-index: 100;
+        font-size: 14px;
+        padding: 10px;
+        line-height: 20px;
+        margin-top: 30px;
+        margin-left: 50px;
+        margin-right: 150px;
+        opacity: 0;
+    }
+
+    .skills-one.element-show {
+        opacity: 1;
+        transition: 3s;
+    }
+
+    .skills-one.element-hide {
+        opacity: 0;
+        transition: 3s;
+    }
+
+    .skills-two {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 370px;
+        height: 190px;
+        background-color: black;
+        z-index: 100;
+        font-size: 14px;
+         padding: 10px;
+         color: white;
+         line-height: 20px;
+         margin-top: 150px;
+         margin-right: 100px;
+         opacity: 0;
+    }
+
+    .skills-two.element-show {
+        opacity: 1;
+        transition: 3s;
+    }
+
+    .skills-two.element-hide {
+        opacity: 0;
+        transition: 3s;
+    }
+    .decor {
+        position: absolute;
+        left: 200px;
+        top: 60px;
+    }
+    .decor img{
+        width: 530px;
+        height: 350px;
+    }
+    .line--1 {
+        width: 80px;
+        border: 1px solid black;
+        transform: rotate(90deg);
+        position: absolute;
+        left: 170px;
+        z-index: 100;
+        bottom: -10px;
+    }
+    .line--1.element-show {
+        bottom: 40px;
+        transition: 2s;
+    }
+
+    .line--1.element-hide {
+        bottom: -10px;
+        transition: 2s;
+    }
+    .line--2 {
+        width: 0;
+        border: 1px solid black;
+        position: absolute;
+        bottom: 0;
+        z-index: 100;
+    }
+
+    .line--2.element-show {
+        width: 211px;
+        transition: 2s;
+    }
+
+    .line--2.element-hide{
+        width: 0;
+        transition: 2s;
+    }
+    .line--3 {
+        width: 0;
+        border: 1px solid black;
+        position: absolute;
+        right: 0;
+        top: 110px;
+        z-index: 100;
+    }
+
+    .line--3.element-show {
+        width: 240px;
+        transition: 2s;
+    }
+    .line--4 {
+        width: 80px;
+        border: 1px solid black;
+        position: absolute;
+        transform: rotate(90deg);
+        right: 199px;
+        top: 0;
+        z-index: 100;
+    }
+
+    .line--4.element-show {
+        top: 150px;
+        transition: 2s;
+    }
+
+    .line--4.element-hide {
+        top: 0;
+        transition: 2s;
+    }
+}
+
+
+
