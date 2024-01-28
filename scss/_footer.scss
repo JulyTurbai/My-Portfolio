@@ -1,0 +1,21 @@
+.footer {
+    margin-bottom: 70px;
+    &__main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__text {
+        margin-right: 30px;
+    }
+    &__social-items {
+        width: 150px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__social-item img {
+        width: 20px;
+        cursor: pointer;
+    }
+}

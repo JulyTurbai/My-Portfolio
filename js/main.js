@@ -77,6 +77,9 @@ let options = {
 
     let text = 
     document.querySelectorAll('.about__main-text');
+    
+    let descr = 
+    document.querySelectorAll('.about__descr');
 
     for(let elm of title) {
         observer.observe(elm);
@@ -154,6 +157,9 @@ let options = {
     }
 
     for(let elm of text) {
+        observer.observe(elm);
+    }
+    for(let elm of descr) {
         observer.observe(elm);
     }
 
