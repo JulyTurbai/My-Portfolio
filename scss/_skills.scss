@@ -22,8 +22,10 @@
         line-height: 20px;
         margin-top: 30px;
         margin-left: 50px;
-        margin-right: 150px;
         opacity: 0;
+        p {
+            width: 350px;
+        }
     }
 
     .skills-one.element-show {
@@ -51,6 +53,9 @@
          margin-top: 150px;
          margin-right: 100px;
          opacity: 0;
+         p {
+            width: 350px;
+        }
     }
 
     .skills-two.element-show {
