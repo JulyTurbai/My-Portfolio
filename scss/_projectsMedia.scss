@@ -1,0 +1,225 @@
+@media (max-width: 1000px) {
+    .projects {
+        padding: 0 5px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .projects {
+        padding: 0 5px;
+        .block {
+            .project{
+                margin-top: 100px;
+                .mockups {
+                    .mockup--1 {
+                        width: 150px;
+                    }
+                    .mockup--2 {
+                        width: 150px;
+                    }
+                    .mockup--3 {
+                        width: 400px;
+                        margin-right: 20px;
+                    }
+                }
+                .decor--1 img {
+                    top: -30px;
+                }
+                .decor--2 img {
+                    left: 400px;
+                    top: 105px;
+                }
+                .using {
+                    z-index: 10000;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 930px) {
+    .projects {
+        padding: 0 5px;
+        margin-top: 100px;
+        .block {
+            .project{
+                margin-top: 100px;
+                .mockups {
+                    display: flex;
+                    flex-wrap: wrap;
+                    .mockup--1 {
+                        width: 250px;
+                        margin-bottom: 20px;
+                    }
+                    .mockup--2 {
+                        width: 250px;
+                        margin-bottom: 20px;
+                    }
+                    .mockup--3 {
+                        width: 500px;
+                        margin-right: 20px;
+                    }
+                }
+                .decor--1 img {
+                    top: -65px;
+                    width: 400px;
+                    height: 260px;
+                }
+                .decor--2 img {
+                    left: 320px;
+                    top: 70px;
+                    width: 300px;
+                    height: 250px;
+                }
+                .using {
+                    z-index: 10000;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 830px) {
+    .projects {
+        padding: 0 5px;
+        margin-top: 100px;
+        .block {
+            .project{
+                margin-bottom: 100px;
+                margin-top: 100px;
+                .mockups {
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin-left: 0;
+                    .mockup--1 {
+                        width: 300px;
+                        margin-bottom: 20px;
+                    }
+                    .mockup--2 {
+                        width: 300px;
+                        margin-bottom: 20px;
+                    }
+                    .mockup--3 {
+                        width: 450px;
+                        margin-right: 20px;
+                    }
+                }
+                .decor--2 img {
+                    left: 220px;
+                    top: 70px;
+                    width: 300px;
+                    height: 200px;
+                }
+                .using {
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 530px) {
+    .projects {
+        padding: 0 5px;
+        margin-top: 100px;
+        .block {
+            .project{
+                .mockups {
+                    margin-top: 100px;
+                    .mockup--1 {
+                        margin-right: 0;
+                    }
+                    .mockup--2 {
+                        margin-right: 0;
+                    }
+                    .mockup--3 {
+                        width: 400px;
+                        margin-right: 0;
+                    }
+                }
+                .decor--2 img {
+                    left: 175px;
+                    top: 70px;
+                    width: 230px;
+                    height: 150px;
+                }
+                .using {
+                    margin-top: 20px;
+                    margin-left: 0;
+                    max-width: 400px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 430px) {
+    .projects {
+        padding: 0 5px;
+        margin-top: 100px;
+        .block {
+            .project{
+                .mockups {
+                    margin-top: 100px;
+                    .mockup--1 {
+                        width: 360px;
+                    }
+                    .mockup--2 {
+                        width: 360px;
+                    }
+                    .mockup--3 {
+                        width: 360px;
+                    }
+                }
+                .decor--1 img {
+                    left: -55px;
+                    top: -60px;
+                    width: 321px;
+                    height: 180px;
+                }
+                .decor--2 img {
+                    left: 175px;
+                    top: 15px;
+                    width: 150px;
+                    height: 110px;
+                }
+                .using {
+                    margin-top: 20px;
+                    margin-left: 0;
+                    max-width: 315px;
+                }
+                .line--1 {
+                    left: 204px;
+                }
+                .line--2.element-show {
+                    width: 220px;
+                    transition: 2s;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 370px) {
+    .projects {
+        .block {
+            .project{
+                .mockups {
+                    margin-top: 100px;
+                    .mockup--1 {
+                        width: 300px;
+                    }
+                    .mockup--2 {
+                        width: 300px;
+                    }
+                    .mockup--3 {
+                        width: 300px;
+                    }
+                }
+                .decor--2 img {
+                    left: 150px;
+                }
+            }
+        }
+    }
+}

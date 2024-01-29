@@ -854,11 +854,12 @@
   .skills .skills-two {
     margin-right: 5px;
     width: 100%;
-    padding: 10px;
+    padding: 0;
   }
   .skills .skills-two p {
-    max-width: 300px;
+    max-width: 320px;
     font-size: 12px;
+    padding: 10px;
   }
   .skills .skills-two {
     margin-right: 0;
@@ -892,6 +893,203 @@
   }
   .skills .line--3.element-show {
     width: 151px;
+  }
+}
+@media (max-width: 1000px) {
+  .projects {
+    padding: 0 5px;
+  }
+}
+@media (max-width: 1000px) {
+  .projects {
+    padding: 0 5px;
+  }
+  .projects .block .project {
+    margin-top: 100px;
+  }
+  .projects .block .project .mockups .mockup--1 {
+    width: 150px;
+  }
+  .projects .block .project .mockups .mockup--2 {
+    width: 150px;
+  }
+  .projects .block .project .mockups .mockup--3 {
+    width: 400px;
+    margin-right: 20px;
+  }
+  .projects .block .project .decor--1 img {
+    top: -30px;
+  }
+  .projects .block .project .decor--2 img {
+    left: 400px;
+    top: 105px;
+  }
+  .projects .block .project .using {
+    z-index: 10000;
+  }
+}
+@media (max-width: 930px) {
+  .projects {
+    padding: 0 5px;
+    margin-top: 100px;
+  }
+  .projects .block .project {
+    margin-top: 100px;
+  }
+  .projects .block .project .mockups {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .projects .block .project .mockups .mockup--1 {
+    width: 250px;
+    margin-bottom: 20px;
+  }
+  .projects .block .project .mockups .mockup--2 {
+    width: 250px;
+    margin-bottom: 20px;
+  }
+  .projects .block .project .mockups .mockup--3 {
+    width: 500px;
+    margin-right: 20px;
+  }
+  .projects .block .project .decor--1 img {
+    top: -65px;
+    width: 400px;
+    height: 260px;
+  }
+  .projects .block .project .decor--2 img {
+    left: 320px;
+    top: 70px;
+    width: 300px;
+    height: 250px;
+  }
+  .projects .block .project .using {
+    z-index: 10000;
+  }
+}
+@media (max-width: 830px) {
+  .projects {
+    padding: 0 5px;
+    margin-top: 100px;
+  }
+  .projects .block .project {
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
+  .projects .block .project .mockups {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0;
+  }
+  .projects .block .project .mockups .mockup--1 {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  .projects .block .project .mockups .mockup--2 {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  .projects .block .project .mockups .mockup--3 {
+    width: 450px;
+    margin-right: 20px;
+  }
+  .projects .block .project .decor--2 img {
+    left: 220px;
+    top: 70px;
+    width: 300px;
+    height: 200px;
+  }
+  .projects .block .project .using {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 530px) {
+  .projects {
+    padding: 0 5px;
+    margin-top: 100px;
+  }
+  .projects .block .project .mockups {
+    margin-top: 100px;
+  }
+  .projects .block .project .mockups .mockup--1 {
+    margin-right: 0;
+  }
+  .projects .block .project .mockups .mockup--2 {
+    margin-right: 0;
+  }
+  .projects .block .project .mockups .mockup--3 {
+    width: 400px;
+    margin-right: 0;
+  }
+  .projects .block .project .decor--2 img {
+    left: 175px;
+    top: 70px;
+    width: 230px;
+    height: 150px;
+  }
+  .projects .block .project .using {
+    margin-top: 20px;
+    margin-left: 0;
+    max-width: 400px;
+  }
+}
+@media (max-width: 430px) {
+  .projects {
+    padding: 0 5px;
+    margin-top: 100px;
+  }
+  .projects .block .project .mockups {
+    margin-top: 100px;
+  }
+  .projects .block .project .mockups .mockup--1 {
+    width: 360px;
+  }
+  .projects .block .project .mockups .mockup--2 {
+    width: 360px;
+  }
+  .projects .block .project .mockups .mockup--3 {
+    width: 360px;
+  }
+  .projects .block .project .decor--1 img {
+    left: -55px;
+    top: -60px;
+    width: 321px;
+    height: 180px;
+  }
+  .projects .block .project .decor--2 img {
+    left: 175px;
+    top: 15px;
+    width: 150px;
+    height: 110px;
+  }
+  .projects .block .project .using {
+    margin-top: 20px;
+    margin-left: 0;
+    max-width: 315px;
+  }
+  .projects .block .project .line--1 {
+    left: 204px;
+  }
+  .projects .block .project .line--2.element-show {
+    width: 220px;
+    transition: 2s;
+  }
+}
+@media (max-width: 370px) {
+  .projects .block .project .mockups {
+    margin-top: 100px;
+  }
+  .projects .block .project .mockups .mockup--1 {
+    width: 300px;
+  }
+  .projects .block .project .mockups .mockup--2 {
+    width: 300px;
+  }
+  .projects .block .project .mockups .mockup--3 {
+    width: 300px;
+  }
+  .projects .block .project .decor--2 img {
+    left: 150px;
   }
 }
 * {
