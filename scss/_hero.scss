@@ -24,6 +24,17 @@
                 border-bottom: 1px solid black;
                 cursor: pointer;
             }
+            &__social-items {
+                width: 70px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 5px;
+                display: none;
+            }
+            &__social-item img{
+                width: 12px;
+            }
         }
     }
     .decor {
@@ -40,7 +51,17 @@
         border: 1px solid black;
         transform: rotate(90deg);
         left: 200px;
-        top: 50px;
+        top: 0;
+    }
+
+    .line--1.element-show {
+        top: 120px;
+        transition: 2s;
+    }
+
+    .line--1.element-hide {
+        bottom: 0;
+        transition: 2s;
     }
     .line--2 {
         position: absolute;

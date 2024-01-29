@@ -20,8 +20,11 @@ let options = {
 
     let title = 
     document.querySelectorAll('.main-title');
-    
+
     let heroLine1 = 
+    document.querySelectorAll('.line--1');
+    
+    let heroLine2 = 
     document.querySelectorAll('.line--2');
   
     let skillsLine1 = 
@@ -86,6 +89,10 @@ let options = {
     }
 
     for(let elm of heroLine1) {
+        observer.observe(elm);
+    }
+
+    for(let elm of heroLine2) {
         observer.observe(elm);
     }
 
