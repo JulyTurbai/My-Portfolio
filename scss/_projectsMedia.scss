@@ -137,6 +137,9 @@
                         margin-right: 0;
                     }
                 }
+                .decor--1 img{
+                    top: -35px;
+                }
                 .decor--2 img {
                     left: 175px;
                     top: 70px;
@@ -147,6 +150,12 @@
                     margin-top: 20px;
                     margin-left: 0;
                     max-width: 400px;
+                }
+                .using--3 {
+                    margin-top: 20px;
+                    margin-left: 0;
+                    max-width: 320px;
+                    height: 290px;
                 }
             }
         }
@@ -173,7 +182,7 @@
                 }
                 .decor--1 img {
                     left: -55px;
-                    top: -60px;
+                    top: -35px;
                     width: 321px;
                     height: 180px;
                 }
@@ -182,6 +191,13 @@
                     top: 15px;
                     width: 150px;
                     height: 110px;
+                }
+                .decor--5 img {
+                    width: 420px;
+                    height: 225px;
+                    position: absolute;
+                    top: 100px;
+                    right: 100px 
                 }
                 .using {
                     margin-top: 20px;

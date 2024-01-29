@@ -1080,6 +1080,9 @@
     width: 400px;
     margin-right: 0;
   }
+  .projects .block .project .decor--1 img {
+    top: -35px;
+  }
   .projects .block .project .decor--2 img {
     left: 175px;
     top: 70px;
@@ -1090,6 +1093,12 @@
     margin-top: 20px;
     margin-left: 0;
     max-width: 400px;
+  }
+  .projects .block .project .using--3 {
+    margin-top: 20px;
+    margin-left: 0;
+    max-width: 320px;
+    height: 290px;
   }
 }
 @media (max-width: 430px) {
@@ -1111,7 +1120,7 @@
   }
   .projects .block .project .decor--1 img {
     left: -55px;
-    top: -60px;
+    top: -35px;
     width: 321px;
     height: 180px;
   }
@@ -1120,6 +1129,13 @@
     top: 15px;
     width: 150px;
     height: 110px;
+  }
+  .projects .block .project .decor--5 img {
+    width: 420px;
+    height: 225px;
+    position: absolute;
+    top: 100px;
+    right: 100px;
   }
   .projects .block .project .using {
     margin-top: 20px;
