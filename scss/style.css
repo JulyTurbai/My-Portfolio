@@ -708,6 +708,9 @@
     position: absolute;
     top: 100px;
   }
+  .hero .main-text {
+    font-size: 14px;
+  }
   .hero .line--1 {
     display: none;
   }
