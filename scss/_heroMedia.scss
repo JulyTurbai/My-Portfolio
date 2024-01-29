@@ -29,41 +29,56 @@
 }
 
 
-@media (max-width: 530px) {
+@media (max-width: 550px) {
     .hero {
+        margin-bottom: 40px;
         .main-title {
-            width: 270px;
+            width: 330px;
             height: 100px;
-        }
-        .main-title.element-show {
-            margin-top: 170px;
-        }
-        .main-text {
-            font-size: 12px;
-        }
-        .line--1 {
-            width: 250px;
-            left: 150px;
-        }
-        .line--2 {
-            z-index: 1000;
-        }
-    }
-}
-@media (max-width: 400px) {
-    .hero {
-        .main-title {
-            margin-left: 50px;
         }
         &__main-img {
             position: absolute;
-            right: 110px;
+            right: 210px;
+            left: 0;
+        }
+        .hero__main-img img {
+            width: 340px;
+            height: 520px;
+        }
+        .main-title.element-show {
+            margin-top: 260px;
+        }
+        .main-text {
+            font-size: 12px;
+            margin: 0;
+        }
+        .line--1 {
+            width: 350px;
+            left: 205px;
+        }
+        .line--1.element-show {
+            top: 174px;
+        }
+        .line--2 {
+            z-index: 1000;
+            top: 375px;
+        }
+    }
+}
+@media (max-width: 470px) {
+    .hero {
+        .main-title {
+            margin-left: 50px;
+            width: 270px;
         }
         .decor__img {
             width: 280px;
             height: 160px;
             position: absolute;
             top: 100px;
+        }
+        .line--1 {
+            display: none;
         }
         .decor__img {
             width: 300px;
@@ -71,15 +86,15 @@
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
     .hero {
         .main-title {
             margin-left: 20px;
             width: 230px;
         }
-        &__main-img {
-            position: absolute;
-            right: 110px;
+        .hero__main-img img {
+            width: 270px;
+            height: 420px;
         }
         .hero .decor__img {
             width: 280px;
@@ -87,11 +102,18 @@
             position: absolute;
             top: 100px;
         }
+        .main-title.element-show {
+            margin-top: 160px;
+        }
         .icons {
             margin-right: 20px;
+            margin-left: 20px;
         }
         .line--1 {
             left: 115px;
+        }
+        .line--2 {
+            top: 310px;
         }
     }
 }
