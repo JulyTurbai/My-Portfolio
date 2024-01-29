@@ -84,6 +84,12 @@
         padding: 0 5px;
         margin-top: 100px;
         .block {
+            .project--2 {
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                align-items: center;
+            }
             .project{
                 margin-bottom: 100px;
                 margin-top: 100px;
@@ -103,6 +109,12 @@
                         width: 450px;
                         margin-right: 20px;
                     }
+                    .mockup--6 {
+                        margin-bottom: 20px;
+                    }
+                }
+                .decor--1 img {
+                    top: -8px;
                 }
                 .decor--2 img {
                     left: 220px;
@@ -110,8 +122,24 @@
                     width: 300px;
                     height: 200px;
                 }
+                .decor--3 img {
+                    top: -40px;
+                    left: 0;
+                    width: 400px;
+                    height: 250px;
+                }
+                .decor--4 img {
+                    width: 319px;
+                    height: 255px;
+                    position: absolute;
+                    top: 67px;
+                    left: 100px;
+                }
                 .using {
                     margin-top: 20px;
+                }
+                .using--2 {
+                    margin-left: 0;
                 }
             }
         }
@@ -136,6 +164,12 @@
                         width: 400px;
                         margin-right: 0;
                     }
+                    .mockup--6 {
+                        width: 370px;
+                        z-index: 100;
+                        margin-right: 30px;
+                        opacity: 0;
+                    }
                 }
                 .decor--1 img{
                     top: -35px;
@@ -151,11 +185,24 @@
                     margin-left: 0;
                     max-width: 400px;
                 }
+                .using--2 {
+                    z-index: 1000;
+                }
                 .using--3 {
                     margin-top: 20px;
                     margin-left: 0;
                     max-width: 320px;
                     height: 290px;
+                }
+                .line--5 {
+                    width: 50px;
+                    right: 212px;
+                }
+                .line--5.element-show {
+                    bottom: -19px;
+                }
+                .line--6 {
+                    bottom: -45px;
                 }
             }
         }
@@ -179,6 +226,10 @@
                     .mockup--3 {
                         width: 360px;
                     }
+                    .mockup--6 {
+                        margin-right: 0;
+                        width: 315px;
+                    }
                 }
                 .decor--1 img {
                     left: -55px;
@@ -192,6 +243,15 @@
                     width: 150px;
                     height: 110px;
                 }
+                .decor--3 img {
+                    width: 320px;
+                    height: 200px;
+                }
+                .decor--4 img {
+                    left: 0;
+                    width: 200px;
+                    height: 100px;
+                }
                 .decor--5 img {
                     width: 420px;
                     height: 225px;
@@ -203,6 +263,9 @@
                     margin-top: 20px;
                     margin-left: 0;
                     max-width: 315px;
+                }
+                .using--2 {
+                    width: 320px;
                 }
                 .line--1 {
                     left: 204px;
