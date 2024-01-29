@@ -786,6 +786,32 @@
   .skills .skills .skills-two {
     margin-right: 45px;
   }
+  .skills .line--1 {
+    display: block;
+    left: 174px;
+    width: 50px;
+  }
+  .skills .line--1.element-show {
+    bottom: -14px;
+  }
+  .skills .line--2 {
+    bottom: -40px;
+  }
+  .skills .line--3 {
+    top: 30px;
+  }
+  .skills .line--4 {
+    display: block;
+    right: 136px;
+    width: 30px;
+  }
+  .skills .line--4.element-show {
+    top: 44px;
+    transition: 2s;
+  }
+  .skills .line--3.element-show {
+    width: 151px;
+  }
 }
 @media (max-width: 420px) {
   .skills {
