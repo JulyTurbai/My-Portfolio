@@ -153,5 +153,31 @@
             left: 0px;
             top: 160px;
         }
+        .line--1 {
+            display: block;
+            left: 174px;
+            width: 50px;
+        }
+        .line--1.element-show {
+            bottom: -14px;
+        }
+        .line--2 {
+            bottom: -40px;
+        }
+        .line--3 {
+            top: 30px;
+        }
+        .line--4 {
+            display: block;
+            right: 136px;
+            width: 30px;
+        }
+        .line--4.element-show {
+            top: 44px;
+            transition: 2s;
+        }
+        .line--3.element-show {
+            width: 151px;
+        }
     }
 }

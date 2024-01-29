@@ -867,6 +867,32 @@
     left: 0px;
     top: 160px;
   }
+  .skills .line--1 {
+    display: block;
+    left: 174px;
+    width: 50px;
+  }
+  .skills .line--1.element-show {
+    bottom: -14px;
+  }
+  .skills .line--2 {
+    bottom: -40px;
+  }
+  .skills .line--3 {
+    top: 30px;
+  }
+  .skills .line--4 {
+    display: block;
+    right: 136px;
+    width: 30px;
+  }
+  .skills .line--4.element-show {
+    top: 44px;
+    transition: 2s;
+  }
+  .skills .line--3.element-show {
+    width: 151px;
+  }
 }
 * {
   margin: 0;
