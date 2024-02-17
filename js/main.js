@@ -74,6 +74,9 @@ let options = {
 
     let line5 = 
     document.querySelectorAll('.line--5');
+    
+    let line6 = 
+    document.querySelectorAll('.line--6');
 
     let img = 
     document.querySelectorAll('.about__main-img');
@@ -155,6 +158,10 @@ let options = {
         observer.observe(elm);
     }
 
+    for(let elm of line6) {
+        observer.observe(elm);
+    }
+
     for(let elm of line5) {
         observer.observe(elm);
     }
@@ -169,6 +176,26 @@ let options = {
     for(let elm of descr) {
         observer.observe(elm);
     }
+
+
+
+    const button1 = document.querySelector('.button--1');
+
+    const button2 = document.querySelector('.button--2');
+
+    const button3 = document.querySelector('.button--3');
+
+    button1.addEventListener('click', function() {
+        window.open("https://julyturbai.github.io/John-Doe", "_blank");
+    });
+
+    button2.addEventListener('click', function() {
+        window.open("https://julyturbai.github.io/John-Doe", "_blank");
+    });
+
+    button3.addEventListener('click', function() {
+        window.open("https://finalprojectreact.turbays.pp.ua/", "_blank");
+    });
 
 
     
