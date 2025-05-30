@@ -39,7 +39,7 @@ if (button1) {
 
 document.querySelectorAll('.button--2').forEach(btn => {
     btn.addEventListener('click', () => {
-        window.open("https://github.com/JulyTurbai/Cozy-House-React", "_blank");
+        window.open("https://cozy-house-react.turbays.pp.ua/", "_blank");
     });
 });
 
