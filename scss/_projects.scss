@@ -7,6 +7,9 @@
         .project {
             position: relative;
             margin-bottom: 200px;
+                .project--1 {
+                    overflow: hidden;
+                }
             .mockups  {
                 margin-left: 70px;
                 display: flex;
